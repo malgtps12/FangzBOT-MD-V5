@@ -5,18 +5,18 @@ Hay👋‹, ingin melanjutkan pembayaran?
 
 💌 *Pembayaran*
 💳 Via: Gopay
-📞 Nomor: 088215689772
-👤 A/n: Fangz
-📦 Mitra: Fangz BOT
+📞 Nomor: 089516353968
+👤 A/n: Mall Store
+📦 Mitra: Mall Bot
 💰 Metode pembayaran: Online ( ~Cod~ )
 
-📣 *Beli*
 
-Apk TokoBot: https://app.bukaolshop.com/toko/tokobot
 
-Apk FangzApp:https://web.jagel.id/store/fangzapp
 
-Toko Website:https://toko.ly/TokoBot   (Non apk)
+
+
+
+
 
 ✏️ _Informasi Pembayaran_
 
