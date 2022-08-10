@@ -5,7 +5,7 @@ let sh = '5'
 let sn = '10'
 let ss = '25'
 let sp = '40'
-let sv = '120'
+let sv = '50'
 //premium
 let ph = '5'
 let pn = '15'
