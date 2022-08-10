@@ -5,9 +5,9 @@ Hay👋‹, ingin Donasi?
 
 💌 *Pembayaran*
 💳 Via: Pulsa Tri3
-📞 Nomor: 0895394988123
-👤 A/n: Fangz
-📝 Mitra: Fangz BOT
+📞 Nomor: 089516353968
+👤 A/n: Mall
+📝 Mitra: Mall Bot
 💰 Metode pembayaran: Online ( ~Cod~ )
 
 
