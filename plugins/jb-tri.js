@@ -1,22 +1,22 @@
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
-let text = `${htki} PULSA ${htka}
+let text = `${htki} PULSA Tri ${htka}
 
 👋‘‹, ingin melanjutkan pembayaran?
 
 💌 *Pembayaran*
 💳 Via: Pulsa Tri3
-📞 Nomor: 0895394988123
-👤 A/n: Fangz
-📦 Mitra: Fangz BOT
+📞 Nomor: 089516353968
+👤 A/n: Mall
+📦 Mitra: Mall Bot
 💰 Metode pembayaran: Online ( ~Cod~ )
 
-📣 *Beli*
 
-Apk TokoBot: https://app.bukaolshop.com/toko/tokobot
 
-Apk FangzApp:https://web.jagel.id/store/fangzapp
 
-Toko Website:https://toko.ly/TokoBot   (Non apk)
+
+
+
+
 
 ✏️ _Informasi Pembayaran_
 
