@@ -7,15 +7,25 @@ export async function before(m, { isAdmin, isBotAdmin }) {
     let bot = global.db.data.settings[this.user.jid] || {}
     const isGroupLink = linkRegex.exec(m.text)
 
-    if (chat.antiLink && isGroupLink && !isAdmin) {
-        if (isBotAdmin) {
-            const linkThisGroup = `https://chat.whatsapp.com/${await this.groupInviteCode(m.chat)}`
-            if (m.text.includes(linkThisGroup)) return !0
-        }
-        await conn.sendButton(m.chat, `*Group link detect!*${isBotAdmin ? '' : '\n\n_❬Bot Bukan Admin❭'}`, author, ['ଘ OFF ANTILINK', '/disable antilink'], m)
-        if (isBotAdmin && bot.restrict) {
-            await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
-        } else if (!bot.restrict) return m.reply('Owner disable auto kick!')
-    }
-    return !0
-}
+    if (isGroupMsg && isAntiLink && !isGroupAdmins && !isOwner) {
+              if (chats.includes('https://chat.whatsapp.com/') || chats.includes('chat.whatsapp.com') || chats.includes('link.tr') || chats.includes('t.me') || chats.includes('http') || chats.includes('youtu.be') || chats.includes('https://discord.gg/') || chats.includes('https://bit.ly/')) {
+                  const check = await client.inviteInfo(body);
+                  if (!check) {
+                      return
+                  } else {
+                      client.reply(from, `*「 LINK DETECTOR 」*\nKamu mengirimkan link, maaf kamu aku kick dari grup..`, id).then(() => {
+                          client.removeParticipant(groupId, sender.id)
+                      })
+                  }
+              }
+            }
+
+
+
+
+
+
+
+
+
+
